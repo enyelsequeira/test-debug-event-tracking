@@ -12,7 +12,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Mirror World</title>
-        {/* <meta name="viewport" content="initial-scale=1.0, width=device-width" /> */}
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
@@ -46,7 +45,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
 
       <Script
-        id="intercom-script"
+        // id="intercom-script"
         strategy="beforeInteractive"
         dangerouslySetInnerHTML={{
           __html: `

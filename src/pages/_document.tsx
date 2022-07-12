@@ -5,7 +5,8 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <body className="bg-black h-auto w-full">
+        <Head></Head>
+        <body style={{ background: "red" }}>
           <Main />
           <NextScript />
         </body>
